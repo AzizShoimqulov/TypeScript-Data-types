@@ -10,7 +10,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let big: BigInt = 2134n;
 // big = 1234n;
 // console.log(big);
-let obj = {};
-obj = { name: 'Webbrain' };
-console.log(obj);
+// let obj = {};
+// obj = { name: 'Webbrain' };
+// let arr = [1,2,3,4];
+// console.log(obj);
+function getData(name) {
+}
+console.log(getData("webbrain"));
 //# sourceMappingURL=index.js.map

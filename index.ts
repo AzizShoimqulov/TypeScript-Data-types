@@ -14,7 +14,15 @@
 // big = 1234n;
 // console.log(big);
 
-let obj = {};
-obj = { name: 'Webbrain' };
+// let obj = {};
+// obj = { name: 'Webbrain' };
 
-console.log(obj);
+// let arr = [1,2,3,4];
+
+// console.log(obj);
+
+
+function getData(name: string){
+
+}
+console.log(getData("webbrain"));
