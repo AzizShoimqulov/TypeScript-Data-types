@@ -27,4 +27,8 @@
 // }
 // console.log(getData("webbrain",123).toUpperCase());
 
-as
+let language: "uzbek" | "english" |"rus";
+
+const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
+    { id:1, value:"uzbek" },
+a
