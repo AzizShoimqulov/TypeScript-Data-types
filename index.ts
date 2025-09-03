@@ -36,5 +36,4 @@ const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
 ]
 
 data.map((lang) => {
-    language = lang.value;
 a
