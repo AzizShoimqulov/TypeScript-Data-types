@@ -14,7 +14,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // obj = { name: 'Webbrain' };
 // let arr = [1,2,3,4];
 // console.log(obj);
-function getData(name) {
+function getData(name, age) {
+    return name;
 }
-console.log(getData("webbrain"));
+console.log(getData("webbrain", 123).toUpperCase());
 //# sourceMappingURL=index.js.map

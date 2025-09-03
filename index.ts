@@ -22,7 +22,19 @@
 // console.log(obj);
 
 
-function getData(name: string){
+// function getData(name: String, age: Number){
+//     return name;
+// }
+// console.log(getData("webbrain",123).toUpperCase());
 
-}
-console.log(getData("webbrain"));
+let language: "uzbek" | "english" |"rus";
+
+const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
+    { id:1, value:"uzbek" },
+    { id:2, value:"english" },
+    { id:3, value:"rus" },
+]
+
+data.map((lang) => {
+    language = lang.value;
+})
