@@ -29,5 +29,4 @@
 
 let language: "uzbek" | "english" |"rus";
 
-const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
 a
