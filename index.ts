@@ -33,5 +33,4 @@ const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
     { id:1, value:"uzbek" },
     { id:2, value:"english" },
     { id:3, value:"rus" },
-]
 a
