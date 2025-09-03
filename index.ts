@@ -31,4 +31,9 @@ let language: "uzbek" | "english" |"rus";
 
 const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
     { id:1, value:"uzbek" },
-a
+    { id:2, value:"english" },
+    { id:3, value:"rus" },
+]
+
+data.map((lang) => {
+ a
