@@ -27,5 +27,4 @@
 // }
 // console.log(getData("webbrain",123).toUpperCase());
 
-let language: "uzbek" | "english" |"rus";
-a
+asd
