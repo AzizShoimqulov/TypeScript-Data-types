@@ -40,11 +40,33 @@
 // })
 
 
-let arrNum:( string | number )[] = [1,2,3,4,5 ,"sdfghj"];
-let arrStr: string [] = ['webbrain', 'it center'];
-let arr: Array < string| number > = ['fghj', 12]
+// let arrNum:( string | number )[] = [1,2,3,4,5 ,"sdfghj"];
+// let arrStr: string [] = ['webbrain', 'it center'];
+// let arr: Array < string| number > = ['fghj', 12]
 
-let arrN: (string | number )[] = [1,2,3]
-arrN.push(2131) 
-arrN.push("dfghjkl")
-console.log(arrN);
+// let arrN: (string | number )[] = [1,2,3]
+// arrN.push(2131) 
+// arrN.push("dfghjkl")
+// console.log(arrN);
+
+// let arrNum: (number | string)[] = [1, 2, '34', 3];
+
+// for (let i of arrNum){
+//     console.log(i);
+// }
+
+interface user {
+    id: number,
+    name: string,
+    age: number
+}
+
+type Data = string[]
+
+let data = [
+    { id: 1, name: 'webbrain', age: 8},
+    { id: 2, name: 'it center', age: 7},     
+]
+for (let i of data){
+    console.log(i.name.toUpperCase());
+}
