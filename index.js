@@ -12,5 +12,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(big);
 // let obj = {};
 // obj = { name: 'Webbrain' };
-// let arr = [1,2,3,4];
 a
