@@ -11,5 +11,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // big = 1234n;
 // console.log(big);
 // let obj = {};
-// obj = { name: 'Webbrain' };
 a
