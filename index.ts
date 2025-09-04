@@ -55,18 +55,30 @@
 //     console.log(i);
 // }
 
-interface user {
-    id: number,
-    name: string,
-    age: number
-}
+// interface user {
+//     id: number,
+//     name: string,
+//     age: number
+// }
 
-type Data = string[]
+// type Data = string[]
 
-let data = [
-    { id: 1, name: 'webbrain', age: 8},
-    { id: 2, name: 'it center', age: 7},     
-]
-for (let i of data){
-    console.log(i.name.toUpperCase());
-}
+// let data = [
+//     { id: 1, name: 'webbrain', age: 8},
+//     { id: 2, name: 'it center', age: 7},     
+// ]
+// for (let i of data){
+//     console.log(i.name.toUpperCase());
+// }
+
+
+
+
+
+//<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
+
+let ar: [string, number] = ['webbrain', 1234]
+
+ar.push(2131)
+ar.push("dfghjkl")
+console.log(ar);
