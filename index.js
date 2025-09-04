@@ -10,5 +10,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let big: BigInt = 2134n;
 // big = 1234n;
 // console.log(big);
-// let obj = {};
 a
