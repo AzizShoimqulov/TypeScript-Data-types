@@ -3,5 +3,4 @@
 //Object -> array, function, object
 Object.defineProperty(exports, "__esModule", { value: true });
 // let title: string = 'Webbrain Academy';
-// let num = 1234
 a
