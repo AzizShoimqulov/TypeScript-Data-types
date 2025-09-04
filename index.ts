@@ -27,14 +27,24 @@
 // }
 // console.log(getData("webbrain",123).toUpperCase());
 
-let language: "uzbek" | "english" |"rus";
+// let language: "uzbek" | "english" |"rus";
 
-const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
-    { id:1, value:"uzbek" },
-    { id:2, value:"english" },
-    { id:3, value:"rus" },
-]
+// const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
+//     { id:1, value:"uzbek" },
+//     { id:2, value:"english" },
+//     { id:3, value:"rus" },
+// ]
 
-data.map((lang) => {
-    language = lang.value;
-})
+// data.map((lang) => {
+//     language = lang.value;
+// })
+
+
+let arrNum:( string | number )[] = [1,2,3,4,5 ,"sdfghj"];
+let arrStr: string [] = ['webbrain', 'it center'];
+let arr: Array < string| number > = ['fghj', 12]
+
+let arrN: (string | number )[] = [1,2,3]
+arrN.push(2131) 
+arrN.push("dfghjkl")
+console.log(arrN);

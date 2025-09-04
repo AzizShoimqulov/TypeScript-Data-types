@@ -1,7 +1,5 @@
-"use strict";
 //string. number. boolean. null. undefined. symbol. bigint
 //Object -> array, function, object
-Object.defineProperty(exports, "__esModule", { value: true });
 // let title: string = 'Webbrain Academy';
 // let num = 1234
 // title = 'Webbrain IT Center';
@@ -14,8 +12,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // obj = { name: 'Webbrain' };
 // let arr = [1,2,3,4];
 // console.log(obj);
-function getData(name, age) {
-    return name;
-}
-console.log(getData("webbrain", 123).toUpperCase());
-//# sourceMappingURL=index.js.map
+// function getData(name: String, age: Number){
+//     return name;
+// }
+// console.log(getData("webbrain",123).toUpperCase());
+// let language: "uzbek" | "english" |"rus";
+// const data:{id?:number, value:"uzbek" | "english" |"rus"}[] =[
+//     { id:1, value:"uzbek" },
+//     { id:2, value:"english" },
+//     { id:3, value:"rus" },
+// ]
+// data.map((lang) => {
+//     language = lang.value;
+// })
+var arrNum = [1, 2, 3, 4, 5, "sdfghj"];
+var arrStr = ['webbrain', 'it center'];
+var arr = ['fghj', 12];
+var arrN = [1, 2, 3];
+arrN.push(2131);
+arrN.push("dfghjkl");
+console.log(arrN);
