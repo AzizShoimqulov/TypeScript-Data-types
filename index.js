@@ -7,5 +7,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // title = 'Webbrain IT Center';
 // num = 123
 // console.log(title);
-// let big: BigInt = 2134n;
 a
