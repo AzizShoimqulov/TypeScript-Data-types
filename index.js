@@ -8,6 +8,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // num = 123
 // console.log(title);
 // let big: BigInt = 2134n;
-// big = 1234n;
-// console.log(big);
 a
