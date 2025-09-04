@@ -17,5 +17,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function getData(name, age) {
     return name;
 }
-console.log(getData("webbrain", 123).toUpperCase());
 a
