@@ -55,6 +55,4 @@
 //     console.log(i);
 // }
 
-// interface user {
-//     id: number,
 a
