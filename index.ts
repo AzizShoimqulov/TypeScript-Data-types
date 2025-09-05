@@ -68,11 +68,4 @@
 //     { id: 2, name: 'it center', age: 7},     
 // ]
 // for (let i of data){
-//     console.log(i.name.toUpperCase());
-// }
-
-
-
-
-
 a
