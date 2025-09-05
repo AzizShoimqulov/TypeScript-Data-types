@@ -35,6 +35,4 @@
 //     { id:3, value:"rus" },
 // ]
 
-// data.map((lang) => {
-//     language = lang.value;
 a
