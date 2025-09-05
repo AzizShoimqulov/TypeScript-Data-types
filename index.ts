@@ -66,6 +66,4 @@
 // let data = [
 //     { id: 1, name: 'webbrain', age: 8},
 //     { id: 2, name: 'it center', age: 7},     
-// ]
-// for (let i of data){
 a
