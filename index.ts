@@ -77,8 +77,8 @@
 
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
 
-let ar: [string, number] = ['webbrain', 1234]
+// let ar: [string, number] = ['webbrain', 1234]
 
-ar.push(2131)
-ar.push("dfghjkl")
-console.log(ar);
+// ar.push(2131)
+// ar.push("dfghjkl")
+// console.log(ar);
