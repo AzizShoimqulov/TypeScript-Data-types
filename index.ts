@@ -52,7 +52,4 @@
 // let arrNum: (number | string)[] = [1, 2, '34', 3];
 
 // for (let i of arrNum){
-//     console.log(i);
-// }
-
 a
