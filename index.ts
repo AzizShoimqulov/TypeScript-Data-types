@@ -82,3 +82,15 @@
 // ar.push(2131)
 // ar.push("dfghjkl")
 // console.log(ar);
+
+
+
+//<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
+
+enum languages {
+    english,
+    uzbek,
+    rus
+}
+
+console.log(languages);

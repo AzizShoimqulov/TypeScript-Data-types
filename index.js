@@ -52,8 +52,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log(i.name.toUpperCase());
 // }
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
-let ar = ['webbrain', 1234];
-ar.push(2131);
-ar.push("dfghjkl");
-console.log(ar);
+// let ar: [string, number] = ['webbrain', 1234]
+// ar.push(2131)
+// ar.push("dfghjkl")
+// console.log(ar);
+//<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
+var languages;
+(function (languages) {
+    languages[languages["english"] = 0] = "english";
+    languages[languages["uzbek"] = 1] = "uzbek";
+    languages[languages["rus"] = 2] = "rus";
+})(languages || (languages = {}));
+console.log(languages);
 //# sourceMappingURL=index.js.map
