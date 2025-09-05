@@ -41,6 +41,4 @@
 
 
 // let arrNum:( string | number )[] = [1,2,3,4,5 ,"sdfghj"];
-// let arrStr: string [] = ['webbrain', 'it center'];
-// let arr: Array < string| number > = ['fghj', 12]
 a
