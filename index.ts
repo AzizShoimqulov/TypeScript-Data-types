@@ -47,6 +47,4 @@
 // let arrN: (string | number )[] = [1,2,3]
 // arrN.push(2131) 
 // arrN.push("dfghjkl")
-// console.log(arrN);
-
 a
