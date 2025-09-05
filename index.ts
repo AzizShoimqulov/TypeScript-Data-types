@@ -61,7 +61,4 @@
 //     age: number
 // }
 
-// type Data = string[]
-
-// let data = [
 a
