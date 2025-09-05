@@ -45,6 +45,4 @@
 // let arr: Array < string| number > = ['fghj', 12]
 
 // let arrN: (string | number )[] = [1,2,3]
-// arrN.push(2131) 
-// arrN.push("dfghjkl")
 a
