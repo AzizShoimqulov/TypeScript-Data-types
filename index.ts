@@ -64,6 +64,4 @@
 // type Data = string[]
 
 // let data = [
-//     { id: 1, name: 'webbrain', age: 8},
-//     { id: 2, name: 'it center', age: 7},     
 a
