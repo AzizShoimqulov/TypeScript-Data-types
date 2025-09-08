@@ -63,12 +63,19 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     rus,
 // }
 // console.log(languages);
-var Role;
-(function (Role) {
-    Role[Role["User"] = 0] = "User";
-    Role[Role["Admin"] = 1] = "Admin";
-    Role[Role["SuperAdmin"] = 2] = "SuperAdmin";
-})(Role || (Role = {}));
-let myRole = Role.Admin;
-console.log(myRole);
+// enum Role {
+//   User,
+//   Admin,
+//   SuperAdmin
+// }
+// let myRole: Role = Role.Admin;
+// console.log(myRole); 
+var Status;
+(function (Status) {
+    Status["Active"] = "ACTIVE";
+    Status["Inactive"] = "INACTIVE";
+    Status["Pending"] = "PENDING";
+})(Status || (Status = {}));
+let current = Status.Active;
+console.log(current);
 //# sourceMappingURL=index.js.map

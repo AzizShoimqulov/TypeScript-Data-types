@@ -96,12 +96,21 @@
 // console.log(languages);
 
 
-enum Role {
-  User,
-  Admin,
-  SuperAdmin
+// enum Role {
+//   User,
+//   Admin,
+//   SuperAdmin
+// }
+
+// let myRole: Role = Role.Admin;
+
+// console.log(myRole); 
+
+enum Status {
+  Active = "ACTIVE",
+  Inactive = "INACTIVE",
+  Pending = "PENDING"
 }
 
-let myRole: Role = Role.Admin;
-
-console.log(myRole); 
+let current: Status = Status.Active;
+console.log(current);
