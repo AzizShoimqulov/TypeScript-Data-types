@@ -68,6 +68,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //   Admin,
 //   SuperAdmin
 // }
-// let myRole: Role = Role.Admin;
-// console.log(myRole); 
-asd
+sad
