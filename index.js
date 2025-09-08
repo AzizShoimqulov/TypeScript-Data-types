@@ -52,10 +52,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log(i.name.toUpperCase());
 // }
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
-let ar = ['webbrain', 1234];
-ar.push(213121);
-ar.push("dfghjkl");
-console.log(ar);
+// let ar: [string, number] = ['webbrain', 1234]
+// ar.push(213121)
+// ar.push("dfghjkl")
+// console.log(ar);
 //<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
 var languages;
 (function (languages) {
@@ -64,4 +64,12 @@ var languages;
     languages[languages["rus"] = 2] = "rus";
 })(languages || (languages = {}));
 console.log(languages);
+var Role;
+(function (Role) {
+    Role[Role["User"] = 0] = "User";
+    Role[Role["Admin"] = 1] = "Admin";
+    Role[Role["SuperAdmin"] = 2] = "SuperAdmin";
+})(Role || (Role = {}));
+let myRole = Role.Admin;
+console.log(myRole);
 //# sourceMappingURL=index.js.map

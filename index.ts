@@ -77,11 +77,11 @@
 
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
 
-let ar: [string, number] = ['webbrain', 1234]
+// let ar: [string, number] = ['webbrain', 1234]
 
-ar.push(213121)
-ar.push("dfghjkl")
-console.log(ar);
+// ar.push(213121)
+// ar.push("dfghjkl")
+// console.log(ar);
 
 
 
@@ -94,3 +94,14 @@ enum languages {
 }
 
 console.log(languages);
+
+
+enum Role {
+  User,
+  Admin,
+  SuperAdmin
+}
+
+let myRole: Role = Role.Admin;
+
+console.log(myRole); 
