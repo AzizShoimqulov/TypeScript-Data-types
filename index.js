@@ -70,12 +70,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // let myRole: Role = Role.Admin;
 // console.log(myRole); 
-var Status;
-(function (Status) {
-    Status["Active"] = "ACTIVE";
-    Status["Inactive"] = "INACTIVE";
-    Status["Pending"] = "PENDING";
-})(Status || (Status = {}));
-let current = Status.Active;
-console.log(current);
+// enum Status {
+//   Active = "ACTIVE",
+//   Inactive = "INACTIVE",
+//   Pending = "PENDING"
+// }
+// let current: Status = Status.Active
+// console.log(current);
+function crash() {
+    throw new Error("Xato bo'ldi!");
+}
+crash(); // bu funksiya hech qachon qiymat qaytarmaydi
 //# sourceMappingURL=index.js.map

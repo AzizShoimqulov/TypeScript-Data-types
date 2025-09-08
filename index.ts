@@ -106,11 +106,17 @@
 
 // console.log(myRole); 
 
-enum Status {
-  Active = "ACTIVE",
-  Inactive = "INACTIVE",
-  Pending = "PENDING"
+// enum Status {
+//   Active = "ACTIVE",
+//   Inactive = "INACTIVE",
+//   Pending = "PENDING"
+// }
+
+// let current: Status = Status.Active
+// console.log(current);
+
+function crash(): never {
+  throw new Error("Xato bo'ldi!");
 }
 
-let current: Status = Status.Active
-console.log(current);
+crash(); // bu funksiya hech qachon qiymat qaytarmaydi
