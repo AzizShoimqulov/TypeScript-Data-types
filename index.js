@@ -76,5 +76,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //   Pending = "PENDING"
 // }
 // let current: Status = Status.Active
-// console.log(current);
-//# sourceMappingURL=index.js.map
+a
