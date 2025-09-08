@@ -115,8 +115,3 @@
 // let current: Status = Status.Active
 // console.log(current);
 
-function crash(): never {
-  throw new Error("Xato bo'ldi!");
-}
-
-crash(); // bu funksiya hech qachon qiymat qaytarmaydi

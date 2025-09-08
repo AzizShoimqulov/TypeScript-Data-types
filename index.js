@@ -77,8 +77,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // let current: Status = Status.Active
 // console.log(current);
-function crash() {
-    throw new Error("Xato bo'ldi!");
-}
-crash(); // bu funksiya hech qachon qiymat qaytarmaydi
 //# sourceMappingURL=index.js.map
