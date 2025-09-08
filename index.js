@@ -62,7 +62,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     uzbek,
 //     rus,
 // }
-// console.log(languages);
-// enum Role {
-//   User,
-sad
+sda
