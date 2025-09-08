@@ -112,5 +112,5 @@ enum Status {
   Pending = "PENDING"
 }
 
-let current: Status = Status.Active;
+let current: Status = Status.Active
 console.log(current);
