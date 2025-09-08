@@ -73,7 +73,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // enum Status {
 //   Active = "ACTIVE",
 //   Inactive = "INACTIVE",
-//   Pending = "PENDING"
-// }
-// let current: Status = Status.Active
-a
+sad
