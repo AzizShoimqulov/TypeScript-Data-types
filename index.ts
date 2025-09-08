@@ -87,13 +87,13 @@
 
 //<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
 
-enum languages {
-    english,
-    uzbek,
-    rus,
-}
+// enum languages {
+//     english,
+//     uzbek,
+//     rus,
+// }
 
-console.log(languages);
+// console.log(languages);
 
 
 enum Role {

@@ -57,13 +57,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // ar.push("dfghjkl")
 // console.log(ar);
 //<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
-var languages;
-(function (languages) {
-    languages[languages["english"] = 0] = "english";
-    languages[languages["uzbek"] = 1] = "uzbek";
-    languages[languages["rus"] = 2] = "rus";
-})(languages || (languages = {}));
-console.log(languages);
+// enum languages {
+//     english,
+//     uzbek,
+//     rus,
+// }
+// console.log(languages);
 var Role;
 (function (Role) {
     Role[Role["User"] = 0] = "User";
