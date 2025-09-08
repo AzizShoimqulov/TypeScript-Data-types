@@ -70,7 +70,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // let myRole: Role = Role.Admin;
 // console.log(myRole); 
-// enum Status {
-//   Active = "ACTIVE",
-//   Inactive = "INACTIVE",
-sad
+asd
