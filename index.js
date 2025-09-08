@@ -1,5 +1,7 @@
+"use strict";
 //string. number. boolean. null. undefined. symbol. bigint
 //Object -> array, function, object
+Object.defineProperty(exports, "__esModule", { value: true });
 // let title: string = 'Webbrain Academy';
 // let num = 1234
 // title = 'Webbrain IT Center';
@@ -50,13 +52,11 @@
 //     console.log(i.name.toUpperCase());
 // }
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
-// let ar: [string, number] = ['webbrain', 1234]
-// ar.push(2131)
-// ar.push("dfghjkl")
-// console.log(ar);
+let ar = ['webbrain', 1234];
+ar.push(213121);
+ar.push("dfghjkl");
+console.log(ar);
 //<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
-
-
 var languages;
 (function (languages) {
     languages[languages["english"] = 0] = "english";
@@ -64,3 +64,4 @@ var languages;
     languages[languages["rus"] = 2] = "rus";
 })(languages || (languages = {}));
 console.log(languages);
+//# sourceMappingURL=index.js.map
