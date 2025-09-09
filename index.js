@@ -57,9 +57,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // ar.push("dfghjkl")
 // console.log(ar);
 //<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
-// enum languages {
-//     english,
-//sda
+// dsada
 class Car {
     brand;
     speed;
