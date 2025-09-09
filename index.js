@@ -59,10 +59,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
 // enum languages {
 //     english,
-//     uzbek,
-//     rus,
-// }
-// dsa
+//sda
 class Car {
     brand;
     speed;
