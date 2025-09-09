@@ -62,9 +62,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     uzbek,
 //     rus,
 // }
-// console.log(languages);
-// enum Role {
-// sda
+// dsa
 class Car {
     brand;
     speed;
