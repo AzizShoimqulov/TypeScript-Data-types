@@ -72,10 +72,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(myRole); 
 // enum Status {
 //   Active = "ACTIVE",
-//   Inactive = "INACTIVE",
-//   Pending = "PENDING"
-// }
-a
+//   saa
 class Car {
     brand;
     speed;
