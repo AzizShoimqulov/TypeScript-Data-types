@@ -62,3 +62,32 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     uzbek,
 //     rus,
 // }
+// console.log(languages);
+// enum Role {
+//   User,
+//   Admin,
+//   SuperAdmin
+// }
+// let myRole: Role = Role.Admin;
+// console.log(myRole); 
+// enum Status {
+//   Active = "ACTIVE",
+//   Inactive = "INACTIVE",
+//   Pending = "PENDING"
+// }
+// let current: Status = Status.Active
+// console.log(current);
+class Car {
+    brand;
+    speed;
+    constructor(brand, speed) {
+        this.brand = brand;
+        this.speed = speed;
+    }
+    drive() {
+        console.log(`${this.brand} is driving at ${this.speed} km/h`);
+    }
+}
+let bmw = new Car("BMW", 200);
+bmw.drive();
+//# sourceMappingURL=index.js.map
