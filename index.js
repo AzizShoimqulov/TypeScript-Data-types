@@ -55,9 +55,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let ar: [string, number] = ['webbrain', 1234]
 // ar.push(213121)
 // ar.push("dfghjkl")
-// console.log(ar);
-//<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
-// dsada
+//dsa
 class Car {
     brand;
     speed;
