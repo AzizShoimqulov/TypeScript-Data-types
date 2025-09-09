@@ -75,8 +75,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //   Inactive = "INACTIVE",
 //   Pending = "PENDING"
 // }
-// let current: Status = Status.Active
-// console.log(current);
+a
 class Car {
     brand;
     speed;
