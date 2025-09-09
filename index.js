@@ -66,10 +66,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // enum Role {
 //   User,
 //   Admin,
-//   SuperAdmin
-// }
-// let myRole: Role = Role.Admin;
-// console.log(myRole); 
 // sda
 class Car {
     brand;
