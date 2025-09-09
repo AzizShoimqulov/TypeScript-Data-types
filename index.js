@@ -64,8 +64,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // console.log(languages);
 // enum Role {
-//   User,
-//   Admin,
 // sda
 class Car {
     brand;
