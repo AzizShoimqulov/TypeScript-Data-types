@@ -53,8 +53,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
 // let ar: [string, number] = ['webbrain', 1234]
-// ar.push(213121)
-// ar.push("dfghjkl")
 //dsa
 class Car {
     brand;
