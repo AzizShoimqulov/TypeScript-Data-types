@@ -53,7 +53,30 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 //<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
 // let ar: [string, number] = ['webbrain', 1234]
-//dsa
+// ar.push(213121)
+// ar.push("dfghjkl")
+// console.log(ar);
+//<<<<<<<<<<<<<<<<<<<<< ENUM >>>>>>>>>>>>>>>>>>>>>>>>>
+// enum languages {
+//     english,
+//     uzbek,
+//     rus,
+// }
+// console.log(languages);
+// enum Role {
+//   User,
+//   Admin,
+//   SuperAdmin
+// }
+// let myRole: Role = Role.Admin;
+// console.log(myRole); 
+// enum Status {
+//   Active = "ACTIVE",
+//   Inactive = "INACTIVE",
+//   Pending = "PENDING"
+// }
+// let current: Status = Status.Active
+// console.log(current);
 class Car {
     brand;
     speed;
