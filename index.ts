@@ -135,4 +135,4 @@
 let numbers = [1, 2, 3];
 // TypeScript aniqlaydi: numbers → number[]
 
-numbers.push(a
+numbers.push(4);a
