@@ -115,19 +115,19 @@
 // let current: Status = Status.Active
 // console.log(current);
 
-class Car {
-  brand: string;
-  speed: number;
+// class Car {
+//   brand: string;
+//   speed: number;
 
-  constructor(brand: string, speed: number) {
-    this.brand = brand;
-    this.speed = speed;
-  }
+//   constructor(brand: string, speed: number) {
+//     this.brand = brand;
+//     this.speed = speed;
+//   }
 
-  drive() {
-    console.log(`${this.brand} is driving at ${this.speed} km/h`);
-  }
-}
+//   drive() {
+//     console.log(`${this.brand} is driving at ${this.speed} km/h`);
+//   }
+// }
 
-let bmw = new Car("BMW", 200);
-bmw.drive(); 
+// let bmw = new Car("BMW", 200);
+// bmw.drive(); 
