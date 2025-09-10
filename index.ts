@@ -132,8 +132,3 @@
 // let bmw = new Car("BMW", 200);
 // bmw.drive(); 
 
-let numbers = [1, 2, 3];
-// TypeScript aniqlaydi: numbers → number[]
-
-numbers.push(4);     // ✅ To‘g‘ri
-numbers.push("hi");  // ❌ Xato: string qo‘shib bo‘lmaydi
