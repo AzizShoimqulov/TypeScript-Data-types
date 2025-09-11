@@ -58,11 +58,4 @@
 // interface user {
 //     id: number,
 //     name: string,
-//     age: number
-// }
-
-// type Data = string[]
-
-// let data = [
-//     { id: 1, name: 'webbrain', age: 8},
 //  asd
