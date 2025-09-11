@@ -11,12 +11,4 @@
 
 
 // let big: BigInt = 2134n;
-// big = 1234n;
-// console.log(big);
-
-// let obj = {};
-// obj = { name: 'Webbrain' };
-
-// let arr = [1,2,3,4];
-
-// dsaanb
+// sda
