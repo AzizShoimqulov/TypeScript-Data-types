@@ -106,11 +106,4 @@
 
 // console.log(myRole); 
 
-// enum Status {
-//   Active = "ACTIVE",
-//   Inactive = "INACTIVE",
-//   Pending = "PENDING"
-// }
-
-// let current: Status = Status.Active
-// console.log(current);as
+a
