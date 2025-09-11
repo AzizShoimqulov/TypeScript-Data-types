@@ -113,10 +113,4 @@
 // }
 
 // let current: Status = Status.Active
-// console.log(current);
-
-// class Car {
-//   brand: string;
-//   speed: number;
-
-a
+// console.log(current);as
