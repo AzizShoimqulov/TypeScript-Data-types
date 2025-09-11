@@ -19,12 +19,4 @@
 
 // let arr = [1,2,3,4];
 
-// console.log(obj);
-
-
-// function getData(name: String, age: Number){
-//     return name;
-// }
-// console.log(getData("webbrain",123).toUpperCase());
-
-// sad
+// dsaanb
