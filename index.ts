@@ -98,12 +98,4 @@
 
 // enum Role {
 //   User,
-//   Admin,
-//   SuperAdmin
-// }
-
-// let myRole: Role = Role.Admin;
-
-// console.log(myRole); 
-
-a
+as
