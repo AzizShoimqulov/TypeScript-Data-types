@@ -125,8 +125,4 @@
 //   }
 
 //   drive() {
-//     console.log(`${this.brand} is driving at ${this.speed} km/h`);
-//   }
-// }
-
-// let bmw = new Car("BMW", 200);
+//a
