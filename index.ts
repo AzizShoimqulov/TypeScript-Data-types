@@ -35,11 +35,4 @@
 //     { id:3, value:"rus" },
 // ]
 
-// data.map((lang) => {
-//     language = lang.value;
-// })
-
-
-// let arrNum:( string | number )[] = [1,2,3,4,5 ,"sdfghj"];
-// let arrStr: string [] = ['webbrain', 'it center'];
-// sda
+// sd
