@@ -65,20 +65,4 @@
 
 // let data = [
 //     { id: 1, name: 'webbrain', age: 8},
-//     { id: 2, name: 'it center', age: 7},     
-// ]
-// for (let i of data){
-//     console.log(i.name.toUpperCase());
-// }
-
-
-
-
-
-//<<<<<<<<<<<<<<<<<<<< TUPLE>>>>>>>>>>>>>>>>>>>>>>>
-
-// let ar: [string, number] = ['webbrain', 1234]
-
-// ar.push(213121)
-// ar.push("dfghjkl")
-// as
+//  asd
