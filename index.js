@@ -1,5 +1,7 @@
+"use strict";
 //string. number. boolean. null. undefined. symbol. bigint
 //Object -> array, function, object
+Object.defineProperty(exports, "__esModule", { value: true });
 // let title: string = 'Webbrain Academy';
 // let num = 1234
 // title = 'Webbrain IT Center';
@@ -88,7 +90,8 @@
 // }
 // let bmw = new Car("BMW", 200);
 // bmw.drive(); 
-var numbers = [1, 2, 3];
-// TypeScript aniqlaydi: numbers → number[]
-numbers.push(4); // ✅ To‘g‘ri
-numbers.push("hi"); // ❌ Xato: string qo‘shib bo‘lmaydi
+// let numbers = [1, 2, 3];
+// // TypeScript aniqlaydi: numbers → number[]
+// numbers.push(4);       To‘g‘ri
+// numbers.push("hi");    Xato: string qo‘shib bo‘lmaydi
+//# sourceMappingURL=index.js.map
