@@ -94,4 +94,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // // TypeScript aniqlaydi: numbers → number[]
 // numbers.push(4);       To‘g‘ri
 // numbers.push("hi");    Xato: string qo‘shib bo‘lmaydi
+const input = button.addEventListener("click", () => {
+    const value = Number(input.value);
+});
 //# sourceMappingURL=index.js.map
