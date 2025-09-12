@@ -97,7 +97,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const input = document.getElementById('num');
 const button = document.getElementById('button');
 const javob = document.getElementById('javob');
+let saqlash = [];
 button.addEventListener("click", () => {
-    const qiymat = Number(input);
+    const qiymat = input;
 });
 //# sourceMappingURL=index.js.map

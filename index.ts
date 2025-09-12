@@ -142,9 +142,10 @@ const input = document.getElementById('num') as HTMLInputElement;
 const button = document.getElementById('button') as HTMLButtonElement;
 const javob = document.getElementById('javob')
 
+    let saqlash = []
 button.addEventListener("click", ()=>{
-     const qiymat = Number(input)
-
+    const qiymat = input
+    
 })
 
 
