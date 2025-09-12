@@ -99,6 +99,8 @@ const button = document.getElementById('button');
 const javob = document.getElementById('javob');
 let saqlash = [];
 button.addEventListener("click", () => {
-    const qiymat = input;
+    const qiymat = Number(input.value);
+    if (qiymat === 0) {
+    }
 });
 //# sourceMappingURL=index.js.map
