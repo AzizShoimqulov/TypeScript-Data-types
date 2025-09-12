@@ -140,15 +140,15 @@
 
 const input = document.getElementById('num') as HTMLInputElement;
 const button = document.getElementById('button') as HTMLButtonElement;
-const javob = document.getElementById('javob')
+const javob = document.getElementById('javob') as HTMLParagraphElement;
 
     let saqlash: number[] =[]
 button.addEventListener("click", ()=>{
     const qiymat = Number(input.value)
-    
+    if (isNaN(qiymat)) return;
     if(qiymat===0){
         const sum = saqlash.reduce((acc,num)=> acc + num, 0)
-        javob.textContent = `Yig‘indi: ${sum}`;
+        javob.textContent = `Yigindi: ${sum}`;
     saqlash = [];
     }else {
     // sonni massivga qo‘shish

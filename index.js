@@ -100,9 +100,11 @@ const javob = document.getElementById('javob');
 let saqlash = [];
 button.addEventListener("click", () => {
     const qiymat = Number(input.value);
+    if (isNaN(qiymat))
+        return;
     if (qiymat === 0) {
         const sum = saqlash.reduce((acc, num) => acc + num, 0);
-        javob.textContent = `Yig‘indi: ${sum}`;
+        javob.textContent = `Yigindi: ${sum}`;
         saqlash = [];
     }
     else {
