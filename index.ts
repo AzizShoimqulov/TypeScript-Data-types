@@ -148,7 +148,10 @@ let saqlash: number[] = [];
 
 button.addEventListener('click', () => {
   const raw = input.value.trim();
-  if (raw === '') { javob.textContent = 'Iltimos son kiriting.'; return; }
+  if (raw === '') { 
+    javob.textContent = 'Iltimos son kiriting.';
+     return; 
+    }
 
   const qiymat = Number(raw);
 
