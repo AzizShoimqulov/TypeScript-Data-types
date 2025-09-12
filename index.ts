@@ -143,7 +143,8 @@ const button = document.getElementById('button') as HTMLButtonElement;
 const javob = document.getElementById('javob')
 
 button.addEventListener("click", ()=>{
-     const value = Number(input.value);
+     const qiymat = Number(input)
+
 })
 
 
