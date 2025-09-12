@@ -148,8 +148,15 @@ button.addEventListener("click", ()=>{
     
     if(qiymat===0){
         const sum = saqlash.reduce((acc,num)=> acc + num, 0)
-        
-    }
+        javob.textContent = `Yig‘indi: ${sum}`;
+    saqlash = [];
+    }else {
+    // sonni massivga qo‘shish
+    saqlash.push(qiymat);
+    javob.textContent = `Kiritilgan sonlar: ${saqlash.join(", ")}`;
+  }
+
+  input.value = "";
 })
 
 
