@@ -151,7 +151,6 @@ button.addEventListener('click', () => {
   if (raw === '') { javob.textContent = 'Iltimos son kiriting.'; return; }
 
   const qiymat = Number(raw);
-  if (isNaN(qiymat)) { javob.textContent = 'Iltimos haqiqiy son kiriting.'; input.value=''; return; }
 
   if (qiymat === 0) {
     if (saqlash.length === 0) {
