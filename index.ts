@@ -138,10 +138,12 @@
 // numbers.push(4);       To‘g‘ri
 // numbers.push("hi");    Xato: string qo‘shib bo‘lmaydi
 
-const input = document.getElementById('num')
-const button = document.getElementById('button')
+const input = document.getElementById('num') as HTMLInputElement;
+const button = document.getElementById('button') as HTMLButtonElement;
 const javob = document.getElementById('javob')
 
-
+button.addEventListener("click", ()=>{
+     const value = Number(input.value);
+})
 
 

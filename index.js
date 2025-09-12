@@ -97,4 +97,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const input = document.getElementById('num');
 const button = document.getElementById('button');
 const javob = document.getElementById('javob');
+button.addEventListener("click", () => {
+    const value = Number(input.value);
+});
 //# sourceMappingURL=index.js.map
