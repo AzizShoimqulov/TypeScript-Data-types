@@ -101,7 +101,7 @@ let saqlash = [];
 button.addEventListener("click", () => {
     const qiymat = Number(input.value);
     if (qiymat === 0) {
-        const sum = saqlash.reduce((acc, num) => acc + num);
+        const sum = saqlash.reduce((acc, num) => acc + num, 0);
     }
 });
 //# sourceMappingURL=index.js.map
