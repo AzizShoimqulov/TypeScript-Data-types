@@ -1,7 +1,7 @@
 "use strict";
 //string. number. boolean. null. undefined. symbol. bigint
 //Object -> array, function, object
-Object.defineProperty(exports, "__esModule", { value: true });
+// Object.defineProperty(exports, "__esModule", { value: true });
 // let title: string = 'Webbrain Academy';
 // let num = 1234
 // title = 'Webbrain IT Center';
@@ -98,20 +98,36 @@ const input = document.getElementById('num');
 const button = document.getElementById('button');
 const javob = document.getElementById('javob');
 let saqlash = [];
-button.addEventListener("click", () => {
-    const qiymat = Number(input.value);
-    if (isNaN(qiymat))
+button.addEventListener('click', () => {
+    const raw = input.value.trim();
+    if (raw === '') {
+        javob.textContent = 'Iltimos son kiriting.';
         return;
+    }
+    const qiymat = Number(raw);
+    if (isNaN(qiymat)) {
+        javob.textContent = 'Iltimos haqiqiy son kiriting.';
+        input.value = '';
+        return;
+    }
     if (qiymat === 0) {
-        const sum = saqlash.reduce((acc, num) => acc + num, 0);
-        javob.textContent = `Yigindi: ${sum}`;
-        saqlash = [];
+        if (saqlash.length === 0) {
+            javob.textContent = 'Hech qanday son kiritilmagan.';
+        }
+        else {
+            let sum = 0;
+            for (const v of saqlash) {
+                sum += v;
+            }
+            javob.textContent = `Yigindi: ${sum}`;
+            saqlash = [];
+        }
     }
     else {
-        // sonni massivga qo‘shish
         saqlash.push(qiymat);
-        javob.textContent = `Kiritilgan sonlar: ${saqlash.join(", ")}`;
+        javob.textContent = `Kiritilgan sonlar: ${saqlash.join(', ')}`;
     }
-    input.value = "";
+    input.value = '';
 });
+console.log('hello world');
 //# sourceMappingURL=index.js.map
