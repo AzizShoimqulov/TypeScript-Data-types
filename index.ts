@@ -157,7 +157,9 @@ button.addEventListener('click', () => {
       javob.textContent = 'Hech qanday son kiritilmagan.';
     } else {
       let sum = 0;
-      for (const v of saqlash) { sum += v; }
+      for (const v of saqlash) { 
+        sum += v; 
+    }
       javob.textContent = `Yigindi: ${sum}`;
       saqlash = [];
     }
