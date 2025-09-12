@@ -96,5 +96,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // numbers.push("hi");    Xato: string qo‘shib bo‘lmaydi
 const input = document.getElementById('num');
 const button = document.getElementById('button');
-const ;
+const javob = document.getElementById('javob');
 //# sourceMappingURL=index.js.map

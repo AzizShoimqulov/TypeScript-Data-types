@@ -140,6 +140,8 @@
 
 const input = document.getElementById('num')
 const button = document.getElementById('button')
-const
+const javob = document.getElementById('javob')
+
+
 
 
