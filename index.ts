@@ -148,7 +148,4 @@
 // button.addEventListener('click', () => {
 //   const raw = input.value.trim();
 //   if (raw === '') { 
-//     javob.textContent = 'Iltimos son kiriting.';
-//      return; 
-//     }
-//dsa
+//  asda
