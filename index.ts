@@ -153,5 +153,4 @@
 //     }
 //   const qiymat = Number(raw);
 //   if (qiymat === 0) {
-//     if (saqlash.length === 0) {
-/asd
+// sad
