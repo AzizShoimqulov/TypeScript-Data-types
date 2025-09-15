@@ -1,7 +1,7 @@
-"use strict";
+// "use strict";
 //string. number. boolean. null. undefined. symbol. bigint
 //Object -> array, function, object
-Object.defineProperty(exports, "__esModule", { value: true });
+// Object.defineProperty(exports, "__esModule", { value: true });
 // let title: string = 'Webbrain Academy';
 // let num = 1234
 // title = 'Webbrain IT Center';
@@ -97,32 +97,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const input = document.getElementById('num');
 const button = document.getElementById('button');
 const javob = document.getElementById('javob');
-let saqlash = [];
+let saqlash = 0;
 button.addEventListener('click', () => {
-    const raw = input.value.trim();
-    if (raw === '') {
-        javob.textContent = 'Iltimos son kiriting.';
-        return;
-    }
-    const qiymat = Number(raw);
-    if (qiymat === 0) {
-        if (saqlash.length === 0) {
-            javob.textContent = 'Hech qanday son kiritilmagan.';
-        }
-        else {
-            let sum = 0;
-            for (const v of saqlash) {
-                sum += v;
-            }
-            javob.textContent = `Yigindi: ${sum}`;
-            saqlash = [];
-        }
-    }
-    else {
-        saqlash.push(qiymat);
-        javob.textContent = `Kiritilgan sonlar: ${saqlash.join(', ')}`;
-    }
-    input.value = '';
+   do{
+    saqlash = saqlash + input ;
+   }while(input != 0)
+console.log(input);
+
 });
-console.log('hello world');
 //# sourceMappingURL=index.js.map
