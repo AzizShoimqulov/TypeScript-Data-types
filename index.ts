@@ -152,5 +152,4 @@
 //      return; 
 //     }
 //   const qiymat = Number(raw);
-//   if (qiymat === 0) {
-// sad
+//dsa
