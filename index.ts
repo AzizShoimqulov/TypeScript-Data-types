@@ -129,4 +129,48 @@
 // //   }
 // // }
 
-// //dada
+// // let bmw = new Car("BMW", 200);
+// // bmw.drive(); 
+
+// // let numbers = [1, 2, 3];
+// // // TypeScript aniqlaydi: numbers → number[]
+
+// // numbers.push(4);       To‘g‘ri
+// // numbers.push("hi");    Xato: string qo‘shib bo‘lmaydi
+
+
+
+// const input = document.getElementById('num') as HTMLInputElement;
+// const button = document.getElementById('button') as HTMLButtonElement;
+// const javob = document.getElementById('javob') as HTMLParagraphElement;
+
+// let saqlash: number[] = [];
+// button.addEventListener('click', () => {
+//   const raw = input.value.trim();
+//   if (raw === '') { 
+//     javob.textContent = 'Iltimos son kiriting.';
+//      return; 
+//     }
+//   const qiymat = Number(raw);
+//   if (qiymat === 0) {
+//     if (saqlash.length === 0) {
+//       javob.textContent = 'Hech qanday son kiritilmagan.';
+//     } else {
+//       let sum = 0;
+//       for (const v of saqlash) { 
+//         sum += v; 
+//     }
+//       javob.textContent = `Yigindi: ${sum}`;
+//       saqlash = [];
+//     }
+//   } else {
+//     saqlash.push(qiymat);
+//     javob.textContent = `Kiritilgan sonlar: ${saqlash.join(', ')}`;
+//   }
+
+//   input.value = '';
+// });
+
+
+
+// console.log('hello world');
