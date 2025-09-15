@@ -157,5 +157,4 @@
 //       javob.textContent = 'Hech qanday son kiritilmagan.';
 //     } else {
 //       let sum = 0;
-//       for (const v of saqlash) { 
-//  sda
+// a
