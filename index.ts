@@ -162,6 +162,4 @@
 //     }
 //       javob.textContent = `Yigindi: ${sum}`;
 //       saqlash = [];
-//     }
-//   } else {
-//  a
+// a
