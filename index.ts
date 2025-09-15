@@ -133,7 +133,4 @@
 // // bmw.drive(); 
 
 // // let numbers = [1, 2, 3];
-// // // TypeScript aniqlaydi: numbers → number[]
-
-// // numbers.push(4);       To‘g‘ri
-// // dsa
+// // dadsas
