@@ -155,5 +155,4 @@
 //   if (qiymat === 0) {
 //     if (saqlash.length === 0) {
 //       javob.textContent = 'Hech qanday son kiritilmagan.';
-//     } else {
-//a
+//  a
