@@ -132,5 +132,4 @@
 // // let bmw = new Car("BMW", 200);
 // // bmw.drive(); 
 
-// // let numbers = [1, 2, 3];
-// // dadsas
+// //asda
