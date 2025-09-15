@@ -130,6 +130,4 @@
 // // }
 
 // // let bmw = new Car("BMW", 200);
-// // bmw.drive(); 
-
-// //asda
+// // dsa
