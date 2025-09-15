@@ -164,5 +164,4 @@
 //       saqlash = [];
 //     }
 //   } else {
-//     saqlash.push(qiymat);
 //  a
