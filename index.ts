@@ -144,6 +144,4 @@
 // const button = document.getElementById('button') as HTMLButtonElement;
 // const javob = document.getElementById('javob') as HTMLParagraphElement;
 
-// let saqlash: number[] = [];
-// button.addEventListener('click', () => {
-//sda
+// dsas
