@@ -165,7 +165,4 @@
 //     }
 //   } else {
 //     saqlash.push(qiymat);
-//     javob.textContent = `Kiritilgan sonlar: ${saqlash.join(', ')}`;
-//   }
-
 //  a
