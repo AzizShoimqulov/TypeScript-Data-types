@@ -158,5 +158,4 @@
 //     } else {
 //       let sum = 0;
 //       for (const v of saqlash) { 
-//         sum += v; 
-//  as
+//  sda
