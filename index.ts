@@ -159,5 +159,4 @@
 //       let sum = 0;
 //       for (const v of saqlash) { 
 //         sum += v; 
-//  sad   javob.textContent = `Yigindi: ${sum}`;
-// asda
+//  as
