@@ -136,10 +136,4 @@
 // // // TypeScript aniqlaydi: numbers → number[]
 
 // // numbers.push(4);       To‘g‘ri
-// // numbers.push("hi");    Xato: string qo‘shib bo‘lmaydi
-
-
-
-// const input = document.getElementById('num') as HTMLInputElement;
-// const button = document.getElementById('button') as HTMLButtonElement;
-// das
+// // dsa
