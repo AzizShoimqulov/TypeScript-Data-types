@@ -161,5 +161,4 @@
 //         sum += v; 
 //     }
 //       javob.textContent = `Yigindi: ${sum}`;
-//       saqlash = [];
-// a
+// asda
