@@ -146,6 +146,4 @@
 
 // let saqlash: number[] = [];
 // button.addEventListener('click', () => {
-//   const raw = input.value.trim();
-//   if (raw === '') { 
-//  asda
+//sda
