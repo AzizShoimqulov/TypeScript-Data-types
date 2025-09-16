@@ -151,7 +151,4 @@
 //   if (raw === '') { 
 //     javob.textContent = 'Iltimos son kiriting.';
 //      return; 
-//     }
-//   const qiymat = Number(raw);
-//   if (qiymat === 0) {
-//    
+//    dsa
