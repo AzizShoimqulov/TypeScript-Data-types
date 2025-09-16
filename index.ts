@@ -140,6 +140,4 @@
 
 
 
-// condsadst input = document.getElementById('num') as HTMLInputElement;
-// const button = document.getElementById('button') as HTMLButtonElement;
-// cdasa
+// dsada
