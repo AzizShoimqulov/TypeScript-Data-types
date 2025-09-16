@@ -156,6 +156,4 @@
 //     if (saqlash.length === 0) {
 //       javob.textContent = 'Hech qanday son kiritilmagan.';
 //     } else {
-//       let sum = 0;
-//       for (const v of saqlash) { 
-//  dsasa
+//    dsaad
