@@ -168,8 +168,4 @@
 //     javob.textContent = `Kiritilgan sonlar: ${saqlash.join(', ')}`;
 //   }
 
-//   input.value = '';
-// });
-
-
-a
+//  as
