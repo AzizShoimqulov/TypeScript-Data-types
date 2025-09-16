@@ -146,12 +146,12 @@
 
 // let saqlash: number[] = [];
 // button.addEventListener('click', () => {
-//   const raw = input.value.trim();
+//   if (saqlash.length === 0) {
+//    sdasa const raw = input.value.trim();
 //   if (raw === '') { 
 //     javob.textContent = 'Iltimos son kiriting.';
 //      return; 
 //     }
 //   const qiymat = Number(raw);
 //   if (qiymat === 0) {
-//     if (saqlash.length === 0) {
-//    sdasa
+//    
