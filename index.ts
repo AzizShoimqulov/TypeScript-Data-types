@@ -140,9 +140,6 @@
 
 
 
-// const input = document.getElementById('num') as HTMLInputElement;
+// condsadst input = document.getElementById('num') as HTMLInputElement;
 // const button = document.getElementById('button') as HTMLButtonElement;
-// const javob = document.getElementById('javob') as HTMLParagraphElement;
-
-// let saqlash: number[] = [];
-// bdsaa
+// cdasa
