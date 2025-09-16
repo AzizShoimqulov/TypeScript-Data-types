@@ -145,10 +145,4 @@
 // const javob = document.getElementById('javob') as HTMLParagraphElement;
 
 // let saqlash: number[] = [];
-// button.addEventListener('click', () => {
-//   if (saqlash.length === 0) {
-//    sdasa const raw = input.value.trim();
-//   if (raw === '') { 
-//     javob.textContent = 'Iltimos son kiriting.';
-//      return; 
-//    dsa
+// bdsaa
