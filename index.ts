@@ -158,7 +158,4 @@
 //     } else {
 //       let sum = 0;
 //       for (const v of saqlash) { 
-//         sum += v; 
-//     }
-//       javob.textContent = `Yigindi: ${sum}`;
-// dsada
+//  dsasa
