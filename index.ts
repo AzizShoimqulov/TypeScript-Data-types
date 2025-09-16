@@ -161,8 +161,4 @@
 //         sum += v; 
 //     }
 //       javob.textContent = `Yigindi: ${sum}`;
-//       saqlash = [];
-//     }
-//   } else {
-//     saqlash.push(qiymat);
-//  sadasd
+// dsada
